@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: lojaService
+  server:
+    port: 8081
+
+netty:
+  default:
+    allocator:
+      max-order: 3
